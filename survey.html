@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to my blog!</h1>
+        <ul>
+            <li><a href= "home.html">My Blog</a></li>
+            <li><a href= "survey.html">Survey</a></li>
+        </ul>
+        
+    </header>
+    <form>
+    	<article>
+            <label for="ybackground">Your background</label>
+        <input type="radio" id="student" name="student" value="student">
+        <label for="student">Student</label>
+        <input type="radio" id="SE" 
+        name="SE" value="SE">
+        <label for="SE">Software Developer</label>
+        <input type="radio" id="other" 
+        name="other" value="other">
+        <label for="other">Other</label><br>
+        <label for="comment">How do you feel about my blog: </label>
+        <select name="age" id="age">
+            <option value="">--Please choose your answer--</option>
+            <option value="1">Great</option>
+            <option value="2">Good</option>
+        </select><br>
+        <label for="comment">The topics that you want me to share</label>
+        <input type="checkbox" id="git" name="skill" value="Git">
+        <label for="git"> Git</label>
+        <input type="checkbox" id="css" name="skill" value="CSS">
+        <label for="css"> CSS</label>
+        <input type="checkbox" id="html" name="skill" value="HTML">
+        <label for="html"> HTML</label>
+        <input type="checkbox" id="javascript" name="skill" value="JavaScript">
+        <label for="javascript"> JavaScript</label><br>
+        <label for="feedback">Your feedback: </label><br>
+        <textarea id="feedback" name="feedback" rows="10" cols="50"></textarea><br>
+        <label for="blog_id"> Your blog id: </label>
+        <input type="text" id="blog_id" name="blog_id" size="40"><br><br>
+        <input type="submit" value="Submit">
+        <br><br>
+
+        <footer>
+             &copy; 2022 Thoughtworks
+        </footer>
+        </article>
+ 
+    </form>
+    
+</body>
+</html>
